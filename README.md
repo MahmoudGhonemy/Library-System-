@@ -5,11 +5,11 @@ The Library Management System is a comprehensive solution designed to manage a l
 
 ## Features
 - **Book Management**: Add, update, delete, and search for books in the library's inventory.
+- - **Category Management**: Organize books into categories for easy searching and management.
 - **User Management**: Manage library users, including borrowing and returning books.
-- **Category Management**: Organize books into categories for easy searching and management.
 - **Borrowing System**: Track which books are borrowed, by whom, and when they are due.
 - **Points System**: Evry patron gain points when he/she borrows a book , after having +1000 point we give him a free borrow
-- **Scheduled Daily Job**: Daily job runs at 12PM (you can adjust it in the code) to print all books that should be returned today and the patron contact info if yoiu need to call him
+- **Scheduled Daily Job**: Daily job runs at 12PM (you can adjust it in the code) to print all books that should be returned today and the patron contact info if yoiu need to call him/her
 
 ## Technologies Used
 - **Java**: The core programming language for the application.
