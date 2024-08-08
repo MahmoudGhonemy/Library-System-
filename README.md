@@ -60,6 +60,11 @@ To run the unit tests, you can use the following command:
  ⁠bash
 mvn test
 
+### How to Use This
+1.⁠ ⁠clone the repo to your local machine
+2. edit the database configration to be compatible with yours (userName , Password)
+3. open postman or any app can handle Http requests and try it.
+
 
 ## Contributing
 Contributions are welcome! Please submit a pull request with your changes, and make sure to include tests.
