@@ -61,36 +61,6 @@ To run the unit tests, you can use the following command:
 mvn test
 
 
-## Project Structure
-
-Library-System-
-│
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── LibraryManagementSystemmple
-│   │   │           └── library
-│   │   │               ├── exception
-│   │   │               ├── security
-│   │   │               ├── controller
-│   │   │               ├── entity
-│   │   │               ├── repository
-│   │   │               └── service
-│   │   ├── resources
-│   │       ├── static
-│   │       ├── templates
-│   │       └── application.properties
-│   └── test
-│       └── java
-│           └── com
-│               └── LibraryManagementSystemmple
-│                   └── service
-│                   └── controller
-│
-└── pom.xml
-
-
 ## Contributing
 Contributions are welcome! Please submit a pull request with your changes, and make sure to include tests.
 
