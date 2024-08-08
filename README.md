@@ -8,21 +8,21 @@ The Library Management System is a comprehensive solution designed to manage a l
 - **User Management**: Manage library users, including borrowing and returning books.
 - **Category Management**: Organize books into categories for easy searching and management.
 - **Borrowing System**: Track which books are borrowed, by whom, and when they are due.
-- **Reports and Analytics**: Generate reports on book availability, borrowing statistics, and user activity.
+- **Points System**: Evry patron gain points when he/she borrows a book , after having +1000 point we give him a free borrow
+- **Scheduled Daily Job**: Daily job runs at 12PM (you can adjust it in the code) to print all books that should be returned today and the patron contact info if yoiu need to call him
 
 ## Technologies Used
 - **Java**: The core programming language for the application.
 - **Spring Boot**: Framework used for building the backend REST API.
 - **Spring Data JPA**: For database interaction and ORM mapping.
 - **MySQL**: The database used for storing library data.
-- **Thymeleaf**: For server-side rendering and building the front-end views.
 - **JUnit**: For writing and running unit tests.
 - **Maven**: For project build and dependency management.
 
 ## Installation and Setup
 
 ### Prerequisites
-- Java 11 or higher
+- Java 17
 - Maven 3.6+
 - MySQL Database
 
@@ -59,11 +59,6 @@ The Library Management System is a comprehensive solution designed to manage a l
 To run the unit tests, you can use the following command:
  ⁠bash
 mvn test
-
-### How to Use This
-1.⁠ ⁠clone the repo to your local machine
-2. edit the database configration to be compatible with yours (userName , Password)
-3. open postman or any app can handle Http requests and try it.
 
 
 ## Contributing
