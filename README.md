@@ -5,7 +5,7 @@ The Library Management System is a comprehensive solution designed to manage a l
 
 ## Features
 - **Book Management**: Add, update, delete, and search for books in the library's inventory. (note that if you adding the same book , the system will automatically update the availabile copies (it will not be a new separated book and this based on the ISBN of the added book) )
-- - **Category Management**: Organize books into categories for easy searching and management.
+- **Category Management**: Organize books into categories for easy searching and management.
 - **User Management**: Manage library users, including borrowing and returning books.
 - **Borrowing System**: Track which books are borrowed, by whom, and when they are due.
 - **Points System**: Evry patron gain points when he/she borrows a book , after having +1000 point we give him a free borrow
