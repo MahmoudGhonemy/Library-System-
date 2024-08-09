@@ -4,7 +4,7 @@
 The Library Management System is a comprehensive solution designed to manage a library's inventory, borrowing process, and user management efficiently. This application provides functionality for managing books, authors, categories, and user interactions within a library.
 
 ## Features
-- **Book Management**: Add, update, delete, and search for books in the library's inventory.
+- **Book Management**: Add, update, delete, and search for books in the library's inventory. (note that if you adding the same book , the system will automatically uodate the availabile copies (it will not be a new separated book and this based on the ISBN of the add book)
 - - **Category Management**: Organize books into categories for easy searching and management.
 - **User Management**: Manage library users, including borrowing and returning books.
 - **Borrowing System**: Track which books are borrowed, by whom, and when they are due.
