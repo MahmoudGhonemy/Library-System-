@@ -54,6 +54,7 @@ The Library Management System is a comprehensive solution designed to manage a l
 
 ⁠ 5. **Access the application**:
    - Open your browser and go to `http://localhost:8080`.
+   - or you can access it by the postman collection that I have attache to the repo and it have its documentation .
 
 ## Running Tests
 To run the unit tests, you can use the following command:
